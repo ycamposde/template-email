@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700|Lobster&display=swap" rel="stylesheet">
+  <style>
+    .app {
+      position: relative;
+      /* background: #F6F6F6; */
+      margin: 0px;
+      font-family: Roboto;
+    }
+    .container {
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    table {
+      border-spacing: 0px !important;
+    }
+    .email__col1 {
+      width: 50%; background: #ffffff;
+      padding: 0rem 2rem;
+      background-repeat: no-repeat;
+    }
+    .email__col2 {
+      width: 50%; background: #DEF5D5;
+      padding: 4rem 2rem;
+    }
+    .email__title {
+      color: #2D4273;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 38px;
+      padding-top: 1rem;
+    }
+    .email__bienvenido {
+      color: #424242;
+      font-size: 16px;
+      padding-top: 1.5rem;
+    }
+    .email__descripcion {
+      color: #424242;
+      font-size: 14px;
+      padding-top: 1rem;
+    }
+    .email__detalle {
+      color: #424242;
+      font-size: 14px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .email__pie {
+      color: #424242;
+      font-size: 14px;
+      padding-top: 1rem;
+      text-align: right;
+    }
+    .email__ayuda {
+      color: #2D4273;
+      text-align: center;
+      padding-top: 16rem;
+      padding-left: 2rem;
+    }
+    .email__table {
+      font-size: 14px;
+    }
+    .email__factura {
+      color: #000000;
+    }
+  </style>
+</head>
+<body class="app">
+  <div class="container email">
+    <table style="width:100%">
+      <tr>
+        <td class="email__col1" style="background: url('Darwin.png'); background-repeat: no-repeat;">
+          <div class="email__ayuda">
+            Juntos haremos <b>crecer tu negocio</b><br/> desde donde estés y de forma <br/> segura.
+          </div>
+        </td>
+        <td class="email__col2">
+          <div>
+            <img src="Contasiscorp.png"/>
+            <div class="email__title">¡GRACIAS POR TU COMPRA!</div>
+            <div class="email__bienvenido">Hemos recibido el pago exitosamente.</div>
+            <div class="email__bienvenido">¡Tu suscripción a <b>Negocios Online</b> ya está activa!
+            La fecha de tu próxima facturación es la siguiente: JULIO 06.</div>
+            <div class="email__detalle"><b>Detalles de tu compra:</b></div>
+            <div class="email__factura">Factura Electrónica: FW01-00000137</div>
+            <div class="email__factura" style="padding-bottom: 1rem;">Fecha del pedido: 6 de Junio de 2020</div>
+            <div class="email__table">
+              <table style="width:100%">
+                <thead>
+                  <tr>
+                    <th style="text-align: left; padding: 8px">Plan</th>
+                    <th style="text-align: left; padding: 8px">Precio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 75%; border-top: 2px solid #000000; padding: 8px">
+                      Plan E- Commerce Integrado
+                    </td>
+                    <td style="width: 25%; border-top: 2px solid #000000; padding: 8px">
+                      $ 45
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 75%; border-top: 2px solid #000000; padding: 8px">
+                      Plan E- Commerce Integrado
+                    </td>
+                    <td style="width: 25%; border-top: 2px solid #000000; padding: 8px">
+                      $ 45
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 75%; border-top: 2px solid #000000; padding: 8px; text-align: right;">
+                      <b>Total</b>
+                    </td>
+                    <td style="width: 25%; border-top: 2px solid #000000; padding: 8px">
+                      <b>$ 459</b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="email__descripcion">Para consultas respecto a sus comprobantes electrónicos, escribir al correo 
+            <b>facturacion@contasiscorp.com</b> o llamar
+            al teléfono (+51) 2026796 anexo 215.</div>
+            <div class="email__pie">
+              Atentamente,<br/>
+              Equipo Contasiscorp.
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
