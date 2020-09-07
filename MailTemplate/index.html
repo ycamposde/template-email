@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Email</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700|Lobster&display=swap" rel="stylesheet">
+  <style>
+    .app {
+      position: relative;
+      background: #F6F6F6;
+      /* background: #FFFFFF; */
+      color: #424242;
+      margin: 0px;
+      font-family: Roboto;
+    }
+    .email {
+      position: relative;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #FFFFFF;
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    .email__body {
+      /* background: #FFFFFF; */
+      border-radius: 5px;
+      margin-top: 16px;
+    }
+    .email__body-header {
+      border-radius: 5px 5px 0px 0px;
+    }
+    .email__body-content {
+      padding: 16px 32px;
+    }
+    .email__body-foot {
+      height: 23px;
+      background: #1890FF;
+    }
+
+    table {
+      border-spacing: 0px !important;
+    }
+    table th {
+      text-align: left;
+      color: #424242;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 23px;
+      border-bottom: 2px solid #000000;
+      padding-bottom: 8px;
+    }
+    table td {
+      color: #424242;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      vertical-align: top;
+      padding: 16px 0px;
+    }
+
+    p {
+      margin-bottom: 0.25rem;
+      margin-top: 0rem;
+    }
+    .email__body-info-compra p {
+      color: #000000;
+    }
+  </style>
+</head>
+<body class="app">
+  <div class="email">
+    <div class="email__body">
+      <div class="email__body-header">
+        <img src="FondoNegociosOnline.png"/>
+      </div>
+      <div class="email__body-content">
+        <div>
+          <p>Hemos recibido el pago <br/> exitosamente.</p>
+          <p>¡Tu suscripción a <b>Negocios <br/> Online</b> ya está activa! </p>
+          <p>La fecha de tu próxima <br/> facturación es la siguiente: <br/> JULIO 06.</p>
+        </div>
+        <div style="padding-top: 18px; padding-bottom: 18px; color: #424242;">
+          <b>Detalles de tu compra:</b>
+        </div>
+        <div class="email__body-info-compra">
+          <p>Factura Electrónica: </p>
+          <p><b>FW01-00000137</b></p>
+          <p>Fecha del pedido: </p>
+          <p><b>6 de Junio de 2020</b></p>
+        </div>
+        <div style="padding-top: 24px; padding-bottom: 16px;">
+          <table style="width:100%">
+            <tr>
+              <th style="width: 65%;">Plan</th>
+              <th style="width: 35%;">Precio</th>
+            </tr>
+            <tr>
+              <td style="border-bottom: 2px solid #000000;">Plan Ecommerce Integrado</td>
+              <td style="border-bottom: 2px solid #000000;">S/ 39 /mes</td>
+            </tr>
+            <tr>
+              <td><b>Total</b></td>
+              <td><b>S/ 39</b></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          Para consultas respecto a sus <br/>
+          comprobantes electrónicos,<br/>
+          escribir al correo<br/>
+          <b>ventasonline@contasiscorp.com</b><br/>
+          o llamar al teléfono <b>949 970 564</b>.
+        </div>
+        <div style="padding-top: 16px; padding-bottom: 30px;">
+          Atentamente,<br/>
+          Equipo Contasiscorp.
+        </div>
+      </div>
+      <div class="email__body-foot">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
